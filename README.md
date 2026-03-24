@@ -132,6 +132,7 @@ uv run python main.py
 6. **窗口与兼容性升级**：使用 `ti.ui.Window` + `canvas`，并兼容检测 `resizable` 参数。
 
 ## 完整画面如下
+![7QcvLO9u_converted](https://github.com/user-attachments/assets/f2f4a998-d794-410c-a023-30a8702ced1f)
 
 
 ## 可扩展方向
