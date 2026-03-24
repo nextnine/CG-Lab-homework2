@@ -68,7 +68,7 @@ source .venv/bin/activate
 .venv\Scripts\Activate.ps1
 ```
 
-### 3) 使用 `uv add taichi` 安装依赖（重点）
+### 3) 使用 `uv add taichi` 安装依赖
 
 在 `work2` 目录下执行：
 
@@ -88,7 +88,7 @@ uv add taichi
 uv add "taichi>=1.7.4"
 ```
 
-### 4) 同步 / 复现环境（给助教或队友）
+### 4) 同步 / 复现环境
 
 当仓库已经包含 `pyproject.toml + uv.lock` 时，其他人只需要：
 
