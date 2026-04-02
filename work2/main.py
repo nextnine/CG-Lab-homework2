@@ -239,9 +239,9 @@ def main():
             elif window.event.key == 'd' or window.event.key == ti.ui.RIGHT:
                 angle_y -= step
             elif window.event.key == 'w' or window.event.key == ti.ui.UP:
-                angle_x += step
-            elif window.event.key == 's' or window.event.key == ti.ui.DOWN:
                 angle_x -= step
+            elif window.event.key == 's' or window.event.key == ti.ui.DOWN:
+                angle_x += step
             elif window.event.key == ti.ui.ESCAPE:
                 window.running = False
 
